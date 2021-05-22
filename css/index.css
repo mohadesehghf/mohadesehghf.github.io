@@ -254,3 +254,113 @@
 .ghf-pos {
     position: absolute;
 }
+
+
+.sm-title {
+    margin-bottom: 30px;
+}
+
+.font-alt {
+    font-family: sans-serif;
+}
+
+
+
+
+
+
+
+
+
+
+
+.aducation-box {
+    margin: 0;
+    list-style: none;
+    padding: 25px;
+    box-shadow: rgb(0 0 0 / 25%) 0px 25px 50px -12px;
+}
+
+
+
+.aducation-box-span {
+    display: inline-block;
+    vertical-align: top;
+    margin-bottom: 16px;
+    color: #fff;
+    padding: 4px 12px;
+    border-radius: 30px;
+    font-size: 12px;
+    line-height: 1;
+}
+
+.aducation-box-h6 {
+    font-weight: 600;
+    font-size: 18px;
+    color: #fff;
+}
+
+.aducation-box-p {
+    margin: 0;
+    color: rgba(255,255,255,0.8);
+}
+.aducation-box-li {
+    padding-top: 25px;
+    margin-top: 20px;
+    border-top: 1px dashed rgba(255,255,255,0.2);
+}
+
+.theme-bg {
+    background: #dc965a;
+}
+.dark-bg {
+    background: #0f0a0a;
+}
+
+
+.skill-box {
+    min-height: calc(100% - 73px);
+    padding: 25px;
+    box-shadow: rgb(0 0 0 / 25%) 0px 25px 50px -12px;
+}
+.gray-bg {
+    background: #fff5ec;
+}
+
+.skill-bar {
+    position: relative;
+    background: #0f0a0a;
+}
+
+.skill-bar-in {
+    width: 80px;
+    height: 10px;
+    position: relative;
+    -moz-transition: ease all 0.55s;
+    -o-transition: ease all 0.55s;
+    -webkit-transition: ease all 0.55s;
+    transition: ease all 0.55s;
+}
+.skill-bar-in > span:after {
+    content: "";
+    position: absolute;
+    bottom: -8px;
+    right: 0;
+    border-left: 7px solid transparent;
+    border-top: 8px solid #0f0a0a;
+}
+.skill-bar-in > span {
+    position: absolute;
+    right: 0;
+    bottom: 15px;
+    background: #0f0a0a;
+    padding: 2px 6px;
+    color: #fff;
+    font-size: 10px;
+    font-weight: 600;
+}
+
+.skill-lt {
+	
+		margin-top: 43px;
+	}
