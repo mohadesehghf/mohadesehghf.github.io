@@ -89,9 +89,7 @@
         color: #dc965a;
     }
     .icon {
-        /*  width: 60px;
-          height: 60px;
-          */line-height: 60px;
+       line-height: 60px;
           font-size: 50px;
           margin-bottom: 20px;
           color: #dc965a;
@@ -136,7 +134,7 @@
 
 @media screen and (min-width:992px) and (max-width:1199px) {
     .ghf-negative-margin {
-        margin-left: -63px;
+        margin-left: -105px;
     }
     .top-style {
         position: absolute;
@@ -171,7 +169,7 @@
 
 @media screen and (min-width:1200px) and (max-width:1399px) {
     .ghf-negative-margin {
-        margin-left: -63px;
+        margin-left: -105px;
     }
     .top-style {
         position: absolute;
@@ -208,7 +206,7 @@
 
 @media screen and (min-width:1400px) {
     .ghf-negative-margin {
-        margin-left: -63px;
+        margin-left: -105px;
     }
     .top-style {
         position: absolute;
@@ -249,6 +247,7 @@
     background-repeat: no-repeat;
     background-attachment: fixed;
     height: 100vh;
+    
 }
 
 .ghf-pos {
