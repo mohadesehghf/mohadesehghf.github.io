@@ -363,3 +363,198 @@
 	
 		margin-top: 43px;
 	}
+
+    .section {
+        padding: 100px 0;
+        position: relative;
+    }
+
+    .section-title {
+        padding-bottom: 40px;
+    }
+    .section-title-h3 {
+        font-size: 45px;
+        color: #0f0a0a;
+        font-weight: 800;
+        position: relative;
+        margin: 0 0 15px;
+        padding: 0 0 15px;
+    }
+
+    .section-title-h3:after {
+        content: "";
+        position: absolute;
+        width: 40px;
+        height: 3px;
+        background: #dc965a;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        margin: auto;
+    }
+
+    .section-title-p {
+        margin: 0;
+        font-size: 17px;
+        color: #5e6472;
+    font-family: sans-serif;
+    line-height: 1.7;
+    font-size: 16px;
+    font-weight: 400;
+    }
+    .portfolio-filter-01 {
+        padding-top: 15px;
+        padding-bottom: 15px;
+    }
+    .portfolio-filter-01-li {
+        cursor: pointer;
+        margin: 0 15px;
+        color: #0f0a0a;
+        position: relative;
+        padding: 5px 0;
+        font-weight: 600;
+        font-size: 16px;
+        line-height: normal;
+    }
+    .portfolio-filter-01-li.active:after {
+        width: 100%;
+    }
+    
+    .portfolio-box-01 {
+        background: #fff;
+        padding: 20px;
+        box-shadow: rgb(0 0 0 / 25%) 0px 25px 50px -12px;
+        margin: 15px 0;
+        position: relative;
+    }
+
+    .portfolio-box-01:hover, .portfolio-box-01:hover  div,.portfolio-box-01:hover img,.portfolio-box-01:hover h5{
+        color: white;
+        background-color: #dc965a;
+    }
+    .portfolio-box-01:hover .portfolio-img {
+        opacity: 0.6;
+      }
+      
+      .portfolio-box-01:hover .middle {
+        opacity: 1;
+      }
+      
+    .portfolio-info {
+        padding-bottom: 20px;
+    }
+    .portfolio-box-01-h5 {
+        font-weight: 600;
+        color: #0f0a0a;
+        margin: 0;
+    }
+    .portfolio-icon {
+        position: absolute;
+        bottom: 18px;
+        left: 8px;
+        -moz-transition: ease all 0.35s;
+        -o-transition: ease all 0.35s;
+        -webkit-transition: ease all 0.35s;
+        transition: ease all 0.35s;
+        opacity: 0;
+    }
+
+    .portfolio-img > img{
+
+        width: 100%;
+
+    }
+
+    .blog-img {
+        position: relative;
+        overflow: hidden;
+    }
+    .data {
+        position: absolute;
+        top: 20px;
+        left: 10px;
+        background: #fff;
+        padding: 8px 10px;
+        line-height: 1;
+        text-align: center;
+        z-index: 1;
+    }
+    .data > span {
+        width: 100%;
+        display: inline-block;
+        font-weight: 600;
+        font-size: 25px;
+        line-height: 1;
+        margin: 0;
+        color: #0f0a0a;
+    }
+
+    .data > small {
+        font-size: 13px;
+        text-transform: uppercase;
+        color: #5e6472;
+        margin-top: 7px;
+        display: inline-block;
+        width: 100%;
+        vertical-align: top;
+    }
+
+    .blog-info {
+        padding: 20px;
+        margin: -30px 10px 0;
+        box-shadow: rgb(0 0 0 / 25%) 0px 25px 50px -12px;
+        position: relative;
+        background: #fff;
+    }
+    .blog-info > h6 {
+        font-size: 18px;
+        font-weight: 600;
+        margin-bottom: 15px;
+    }
+    .blog-info-a {
+        color: black;
+        text-decoration: none;
+    }
+
+    .blog-info-a > img {
+
+        width: 100%;
+        height: 100%;
+    }
+    .btn-bar-a {
+        font-weight: 600;
+        text-transform: uppercase;
+        font-size: 12px;
+        letter-spacing: 0.1rem;
+        text-decoration: none;
+        color: #dc965a;
+    }
+
+    .after-left-section {
+        position: relative;
+        overflow: hidden;
+    }
+    .after-left-section-container {
+        position: relative;
+        z-index: 1;
+    }
+    .contct-form {
+        background: #fff;
+        box-shadow: rgb(0 0 0 / 25%) 0px 25px 50px -12px;
+        padding: 35px;
+    }
+    .sm-title {
+        margin-bottom: 30px;
+    }
+    .sm-title  > h4 {
+        color: #0f0a0a;
+        font-size: 24px;
+        position: relative;
+        padding: 0 0 15px;
+        margin: 0;
+        font-weight: 700;
+    }
+    .contct-form > form-group {
+        margin-bottom: 30px;
+        position: relative;
+    }
