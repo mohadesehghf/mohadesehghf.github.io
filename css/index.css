@@ -2,7 +2,10 @@
     background: #fff5ec;
 }
 
-
+.font-nav {
+    font-family: 'Cabin', sans-serif;
+font-family: 'Josefin Sans', sans-serif;
+}
 .feature-box-01 {
     background-color: #fff;
     box-shadow: rgba(0, 0, 0, 0.25) 0px 25px 50px -12px;
@@ -40,18 +43,7 @@
     color: white;
 }
 
-.ghf-border::after {
-    border-bottom: 1px solid white;
-    content: " ";
-    display: block;
-    transform: scale(0);
-    transform-origin: left;
-    transition: all 400ms linear 0s;
-}
 
-.ghf-border:hover::after {
-    transform: scale(1);
-}
 
 @media screen and (max-width:575px) {
     .top-style {
@@ -242,7 +234,7 @@
 
 .ghf-nav {
     background-image: url(../images/bg-3.jpg);
-    background-position: center;
+   /* background-position: center;*/
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -260,7 +252,7 @@
 }
 
 .font-alt {
-    font-family: sans-serif;
+    font-family: 'Nunito', sans-serif;
 }
 
 
@@ -397,7 +389,7 @@
         margin: 0;
         font-size: 17px;
         color: #5e6472;
-    font-family: sans-serif;
+    font-family: 'Nunito', sans-serif;
     line-height: 1.7;
     font-size: 16px;
     font-weight: 400;
