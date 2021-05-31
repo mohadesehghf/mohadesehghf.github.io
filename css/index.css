@@ -550,3 +550,51 @@ font-family: 'Josefin Sans', sans-serif;
         margin-bottom: 30px;
         position: relative;
     }
+
+
+    #job{
+        display: inline-block;
+        font-size: 30px;
+        height: 40px;
+        line-height: 40px;
+        padding-top: 10px;
+        border-right: 2px solid white;
+    }
+    
+    #sample::before{
+        display: block;
+        content: " ";
+        overflow: hidden;
+        white-space: nowrap;
+        animation-name: animate1;
+        animation-duration: 10s;
+        animation-delay: 0s;
+        animation-iteration-count: infinite;
+        animation-fill-mode: forwards;
+    }
+    
+    @keyframes animate1{
+        0%{
+            width: 0px;
+            content: "Web Developer";
+        }
+        25%{
+            width: 230px;
+            content: "Web Developer";
+        }
+        50%{
+            width: 0px;
+            content: "Web Developer";
+        }
+       
+        75%{
+            width: 210px;
+            content: "Web Designer";
+        }
+        100%{
+            width: 0px;
+            content: "Web Designer";
+        }
+    }
+    
+    
