@@ -247,8 +247,8 @@ font-family: 'Josefin Sans', sans-serif;
 
 .ghf-nav {
     background-image: url(../images/bg-3.jpg);
-   /* background-position: center;*/
-    background-size: cover;
+   
+    background-size: cover ;
     background-repeat: no-repeat;
     background-attachment: fixed;
     height: 100vh;
